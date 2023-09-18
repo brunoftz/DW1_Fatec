@@ -1,0 +1,114 @@
+
+body{
+    margin: 0%;
+    border-width:  0%;
+}
+
+paleta_cores{
+    color: #5A7E8C ;
+    color: #88B0BF ;
+    color: #C1D6D9 ;
+    color: #1A2622 ;
+    color: #0D0D0D ;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: #1A2622;
+    padding: 0%;
+    vertical-align:middle;
+    justify-content: center;
+}
+
+.navbar a{
+    color: white;
+    font-size: auto;
+    text-decoration: none;
+    
+    padding: 1%;
+}
+
+.imgbanner{
+    width: 100%;
+    height: 57%;
+    background-color: greenyellow;
+    text-align: center;
+    background-image: url("https://fastly.picsum.photos/id/235/5000/3333.jpg?hmac=i9YaRj_AF62lGVYNlYhdL2gqRDxoUzypXLUXBj8ihCc");
+    background-position: 40% 30%;
+    max-width: 150%;
+    max-height: 150%;
+}
+.imgbanner img{
+    width: 100%;
+    height: 100%;
+}
+
+.imgdesc{
+    width:100%;
+    height:33%;
+    background-color:#1A2622;
+    display: inline block;
+}
+
+
+.imgleft{
+    display: flex;
+    justify-content:flex-end;
+    width: 30%;
+    height: 100%;
+    align-items:center;
+    float: left;
+}
+
+.imgleft img{ 
+    width: 17vh; 
+    height: 21vh;
+    padding-right: 7%;
+}
+
+.txtright{
+    width: 63%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+}
+
+.roundicons{
+    height:36%;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+
+.bola{
+    height: 60%;
+    width: 24vh;
+    border-radius: 100%;
+    float: left;
+    
+    background-color: aliceblue;
+}
+
+.article{
+    height:45%;
+    width:100%;
+    background-color: moccasin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disclaimer{
+    padding: 60px;
+}
+
+.footer{
+    height:25%;
+    width:100%;
+    background-color: black;
+}
